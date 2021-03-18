@@ -13,13 +13,14 @@ import com.erbe.word.databinding.FragmentLetterListBinding
  * Entry fragment for the app. Displays a [RecyclerView] of letters.
  */
 class LetterListFragment : Fragment() {
-    private var _binding : FragmentLetterListBinding? = null
+    private var _binding: FragmentLetterListBinding? = null
 
     // This property is only valid between onCreateView and
     // onDestroyView.
     private val binding get() = _binding!!
 
     private lateinit var recyclerView: RecyclerView
+
     // Keeps track of which LayoutManager is in use for the [RecyclerView]
     private var isLinearLayoutManager = true
 

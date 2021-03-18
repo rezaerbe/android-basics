@@ -1,14 +1,13 @@
 package com.erbe.calculator
 
 import android.content.Context
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.KeyEvent
 import android.view.View
 import android.view.inputmethod.InputMethodManager
+import androidx.appcompat.app.AppCompatActivity
 import com.erbe.calculator.databinding.ActivityMainBinding
 import java.text.NumberFormat
-import kotlin.math.round
 
 /**
  * Activity that displays a tip calculator.
@@ -20,7 +19,6 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
 
         // Inflate the layout XML file and return a binding object instance
         binding = ActivityMainBinding.inflate(layoutInflater)
@@ -34,8 +32,8 @@ class MainActivity : AppCompatActivity() {
         // Set up a key listener on the EditText field to listen for "enter" button presses
         binding.costOfServiceEditText.setOnKeyListener { view, keyCode, _ ->
             handleKeyEvent(
-                    view,
-                    keyCode
+                view,
+                keyCode
             )
         }
     }

@@ -52,8 +52,8 @@ class OrderViewModel : ViewModel() {
      *
      * @param numberCupcakes to order
      */
-    fun setQuantity(numberCUpcakes: Int) {
-        _quantity.value = numberCUpcakes
+    fun setQuantity(numberCupcakes: Int) {
+        _quantity.value = numberCupcakes
         updatePrice()
     }
 
