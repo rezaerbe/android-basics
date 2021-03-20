@@ -34,6 +34,10 @@ Welcome to Android Basics in Kotlin! In this course, you'll learn the basics of 
 
 <img src="https://raw.githubusercontent.com/rezaerbe/android-basics/master/Screenshot/Cupcake3.jpg?raw=true" width=25% /> &nbsp; &nbsp; <img src="https://raw.githubusercontent.com/rezaerbe/android-basics/master/Screenshot/Cupcake4.jpg?raw=true" width=25% />
 
+### Mars Photos App
+
+<img src="https://raw.githubusercontent.com/rezaerbe/android-basics/master/Screenshot/MarsPhotos.jpg?raw=true" width=25% />
+
 ## [Unit 1: Kotlin basics for Android](https://developer.android.com/courses/android-basics-kotlin/unit-1)
 
 Take your first steps programming in Kotlin, add images and text to your Android apps, and learn how to use classes, objects, and conditionals to create an interactive app for your users.
@@ -51,3 +55,9 @@ Improve the user interface of your app by learning about layouts, Material Desig
 Enhance your users’ ability to navigate across, into and back out from the various screens within your app for a consistent and predictable user experience.
 
 ### [Unit 3: Documentation](https://github.com/rezaerbe/android-basics/blob/master/Unit3.md)
+
+## [Unit 4: Connect to the internet](https://developer.android.com/courses/android-basics-kotlin/unit-4)
+
+Write coroutines for complex code, and learn about HTTP and REST to get data from the internet.
+
+### [Unit 4: Documentation](https://github.com/rezaerbe/android-basics/blob/master/Unit4.md)
